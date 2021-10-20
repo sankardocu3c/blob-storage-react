@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* my css definitions */
+.container{
+  display: flex;
+  flex-direction: column;
+  margin : 5px;
+  margin-left : 15px;
+  color: #111a85;
+}
+
+.line{
+  background-color: #eb5d1e;
+  height : 1.4px;
+}
+/* */
+
+.filecount{
+  width : max-content;
+  margin : 15px;
+  color: #111a85;
+}
+
+/* form */
+
+.fileload{
+  width: max-content;
+  padding : 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 15px;
+  margin : 15px;
+  background-color: rgb(254, 254, 254);
+}
+.form__submit{
+  height:30px;
+  width:60px;
+  color:white;
+  background-color:#eb5d1e;
+  border : transparent 1px solid;
+  border-radius : 4px;
+}
+.form__submit :hover{
+  cursor: pointer;
+}
+.fileload__dynamic{
+  color: #111a85;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+
+}
+.fileload__dynamic p{
+  display: inline-block;
+  font-size: large;
+  margin: 5px;
+  padding: -5px;
+}
+
+/* file display */
+
+.filelist{
+  border:  2px solid transparent;
+  padding : 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  margin : 15px;
+  color: #111a85;
+  background-color: rgb(254, 254, 254);
+  border-radius: 15px;
+  margin-right: 25px;
+}
+
+/* items display */
+#chkbox{
+  float:right;
+}
+.cloudicon{
+  color: #111a85;
+}
+.MuiSvgIcon-colorPrimary{
+  color: white !important;
+}
+.fileload__dynamic__svg{
+  display:inline-block;
+}
+.filenamelist{
+  font-size : 15px;
+  color: black;
+}
+.form__del{
+  height:30px;
+  width:60px;
+  color:white;
+  background-color:#eb5d1e;
+  border : transparent 1px solid;
+  border-radius : 4px;
+  float:right;
+  margin : 15px;
+  margin-right: 25px;
+}
+.form__del :hover{
+  cursor: pointer;
+}
+/* GRIDS */
+.body__container{
+  width:100%;
+}
+.body__leftalign{
+  width:35%;
+  float:left;
+}
+
+.body__rightalign{
+  width:65%;
+  float:right;
+} 
+
+.body__container{
+  margin:10px;
+}
